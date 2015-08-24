@@ -2,11 +2,14 @@ PODS:
   - HockeySDK (3.7.2):
     - HockeySDK/AllFeaturesLib (= 3.7.2)
   - HockeySDK/AllFeaturesLib (3.7.2)
+  - OHHTTPStubs (4.1.0)
 
 DEPENDENCIES:
   - HockeySDK (= 3.7.2)
+  - OHHTTPStubs (~> 4.1.0)
 
 SPEC CHECKSUMS:
   HockeySDK: a9f8fcb6a5ef72b95359b45ab0808407e5e44581
+  OHHTTPStubs: f3473ab21dbf0815253ac96b977d5c36f1daad09
 
 COCOAPODS: 0.38.2

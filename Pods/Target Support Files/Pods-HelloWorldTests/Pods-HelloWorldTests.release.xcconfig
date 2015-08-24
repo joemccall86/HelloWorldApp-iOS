@@ -1,6 +1,5 @@
-FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/HockeySDK/HockeySDK-iOS/HockeySDK.embeddedframework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HockeySDK" "${PODS_ROOT}/Headers/Public/HockeySDK/HockeySDK" "${PODS_ROOT}/Headers/Public/OHHTTPStubs"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HockeySDK" -isystem "${PODS_ROOT}/Headers/Public/HockeySDK/HockeySDK" -isystem "${PODS_ROOT}/Headers/Public/OHHTTPStubs"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreText" -framework "HockeySDK" -framework "MobileCoreServices" -framework "QuartzCore" -framework "QuickLook" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"OHHTTPStubs" -framework "CFNetwork" -framework "Foundation"
 PODS_ROOT = ${SRCROOT}/Pods
