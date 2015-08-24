@@ -271,7 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		647D847411FED569FEC2B58A /* Check Pods Manifest.lock */ = {
@@ -454,7 +454,7 @@
 		};
 		D833C9771B8B8F8B007C5C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A0B89253ECD3DDB6A942CE0 /* Pods-HelloWorld.debug.xcconfig */;
+			baseConfigurationReference = 8130E7C5F0FC1B20E1A93050 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
@@ -465,7 +465,7 @@
 		};
 		D833C9781B8B8F8B007C5C3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A06017B1A624694DDDD44A /* Pods-HelloWorld.release.xcconfig */;
+			baseConfigurationReference = A54E4F934A1623E8FFCD7C90 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
